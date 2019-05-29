@@ -5,8 +5,11 @@ import (
  )
 
  func main() {
-	 var x int
-	 fmt.Println(x)
-	 var y string
-	 fmt.Println(y)
+	 var x int = 5
+	//  fmt.Println(x)
+	 var y int = 7
+	 var sum int = x + y
+	 fmt.Println(sum)
+	//  var y string
+	//  fmt.Println(y)
  }
