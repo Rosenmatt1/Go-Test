@@ -45,8 +45,51 @@ import (
 // 	// fmt.Println(vertices["triangle"])  //for a key
 //  }
 
+//for loop
+// func main() {
+// 	// a := []int{5,4,3,2,1}
+// 	for i := 0; i < 5; i++ {
+// 		fmt.Println(i)
+// 	}
+//  }
+
+//while loop
+// func main() {
+// 	i := 0
+// 	// a := []int{5,4,3,2,1}
+// 	for i < 5 {
+// 		fmt.Println(i)
+// 		i++
+// 	}
+//  }
+
+// loop though array
+// func main() {
+// 	arr := []string{"a", "b", "c"}
+
+// 	for index, value := range arr {
+// 		fmt.Println("index", index, "value", value)
+// 	}
+//  }
+
+//loop through map
+// func main() {
+// 	m := make(map[string]string)
+// 	m["a"] = "alpha"
+// 	m["b"] = "beta"
+// 	fmt.Println(m)
+
+// 	for key, value := range m {
+// 		fmt.Println("key", key, "value", value)
+// 	}
+//  }
+
 func main() {
-	for i := 0; i < 5; i++ {
-		fmt.Println(i)
-	}
- }
+	result := sum(2, 3)
+	fmt.Println(result)
+}
+
+//new function called sum
+func sum(x int, y int) int {
+	return x + y
+}
