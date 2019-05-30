@@ -2,8 +2,8 @@ package main
 
 import ( 
 	"fmt"
-	"errors"
-	"math"
+	// "errors"
+	// "math"
  )
 
 //  func main() {
@@ -86,21 +86,33 @@ import (
 // 	}
 //  }
 
-func main() {
-	result, err := sqrt(16)
+//function with multiple return options
+// func main() {
+// 	result, err := sqrt(16)
 
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println(result)
-	}
+// 	if err != nil {
+// 		fmt.Println(err)
+// 	} else {
+// 		fmt.Println(result)
+// 	}
+// }
+// //new function called sum
+// func sqrt(x float64) (float64, error) {
+// 	if x < 0 {
+// 		return 0, errors.New("Undefined for negative numbers")
+// 	}
+
+// 	return math.Sqrt(x), nil
+// }
+
+//Creating a struct
+
+type person struct {
+	name string
+	age int
 }
 
-//new function called sum
-func sqrt(x float64) (float64, error) {
-	if x < 0 {
-		return 0, errors.New("Undefined for negative numbers")
-	}
-
-	return math.Sqrt(x), nil
+func main() {
+	p := person{name: "Jake", age: 23}
+	fmt.Println(p)
 }
