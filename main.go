@@ -32,16 +32,21 @@ import (
 // 	fmt.Println(a)
 //  }
 
- func main() {
-	vertices := make(map[string]int)
-//Creates key value pairs
-	vertices["triangle"] = 2
-	vertices["square"] = 3
-	vertices["dodecagon"] = 12
+//  func main() {
+// 	vertices := make(map[string]int)
+// //Creates key value pairs
+// 	vertices["triangle"] = 2
+// 	vertices["square"] = 3
+// 	vertices["dodecagon"] = 12
 
-	delete(vertices, "square")
+// 	delete(vertices, "square")
 
-	fmt.Println(vertices)   //shows whole array
-	// fmt.Println(vertices["triangle"])  //for a key
+// 	fmt.Println(vertices)   //shows whole array
+// 	// fmt.Println(vertices["triangle"])  //for a key
+//  }
 
+func main() {
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+	}
  }
