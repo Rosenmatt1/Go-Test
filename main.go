@@ -117,7 +117,12 @@ import (
 // 	fmt.Println(p.age)
 // }
 
+//Pointer to i
 func main() {
 	i := 7
-	fmt.Println(&i)
+	inc(&i)
+	fmt.Println(i)
+}
+func inc(x *int) {
+	*x++
 }
