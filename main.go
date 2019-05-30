@@ -107,12 +107,17 @@ import (
 
 //Creating a struct
 
-type person struct {
-	name string
-	age int
-}
+// type person struct {
+// 	name string
+// 	age int
+// }
+
+// func main() {
+// 	p := person{name: "Jake", age: 23}
+// 	fmt.Println(p.age)
+// }
 
 func main() {
-	p := person{name: "Jake", age: 23}
-	fmt.Println(p.age)
+	i := 7
+	fmt.Println(&i)
 }
