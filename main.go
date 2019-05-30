@@ -114,5 +114,5 @@ type person struct {
 
 func main() {
 	p := person{name: "Jake", age: 23}
-	fmt.Println(p)
+	fmt.Println(p.age)
 }
