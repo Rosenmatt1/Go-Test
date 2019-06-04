@@ -133,6 +133,6 @@ func main() {
 	// fmt.Println(i)
 }
 func inc(x int) {
-	x--
+	x + 7
 	fmt.Println(x)
 }
